@@ -1,0 +1,30 @@
+body{
+    background-color: burlywood;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    align-items: center;
+    font-family: 'monospace', cursive;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    padding: 20px;
+    background-color: rgb(204, 94, 94);
+    border-radius: 10px;
+
+}
+#textarea{
+    height: 100px;
+    font-size: 16px;
+}
+#textarea::placeholder{
+    font-size: 16px;
+    padding: 10px;
+}
+.counter-container{
+    display: flex;
+    justify-content: space-between;
+}
